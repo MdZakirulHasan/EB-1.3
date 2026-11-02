@@ -1,0 +1,17 @@
+EXAMINATION BILL GENERATOR — EB 1.3
+
+Required files:
+1. EB 1.3.py — Streamlit application.
+2. requirements.txt — Python dependencies required by Streamlit Cloud.
+
+DEPLOYMENT:
+1. Upload both files to the ROOT of the GitHub repository.
+2. In Streamlit Community Cloud, select EB 1.3.py as the Main file path.
+3. Commit/push the files and deploy or reboot the app.
+
+IMPORTANT:
+Streamlit Cloud expects the dependency file to be named exactly 'requirements.txt'. It cannot be renamed to 'EB 1.3.txt' and still be automatically detected.
+
+Run locally:
+pip install -r requirements.txt
+streamlit run "EB 1.3.py"
